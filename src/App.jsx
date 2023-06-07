@@ -17,14 +17,14 @@ function App() {
     name: "Turkey",
     description: "Iceberg|  Tomato|  Provolone|  Mayo|  Shaved Turkey|  Artisan Bun",
     price: 14,
-    pic: './src/images/turkey.jpg'
+    pic: './Jimmys-Sandwiches/src/images/turkey.jpg'
 },
 {
     id: 2,
     name: "Smoked Meat",
     description: "Crispy Shoestring Potatoes| Dijonnaise| 24-Hour Smoked Brisket| Rye",
     price: 16,
-    pic: './src/images/smoked-meat.jpg'
+    pic: './Jimmys-Sandwiches/src/images/smoked-meat.jpg'
 },
 {
     id: 3,
@@ -32,14 +32,14 @@ function App() {
     description: "Arugula| Roasted Beets| Grilled Onions| Roasted Garlic Aioli| Artisan Bun",
     price: 11,
     icon: veggie,
-    pic: './src/images/veggie.jpg'
+    pic: './Jimmys-Sandwiches/src/images/veggie.jpg'
 },
 {
     id: 4,
     name: "Reuben",
     description: "Swiss Cheese| Sauerkraut| Housemade Russian Dressing| Corned Beef| Rye",
     price: 15,
-    pic: './src/images/reuben.jpg'
+    pic: './Jimmys-Sandwiches/src/images/reuben.jpg'
 },
 {
     id: 5,
@@ -47,14 +47,14 @@ function App() {
     description: "Coleslaw| Tartar| Garlic Shrimp| Soft baguette",
     price: 15,
     icon: shrimp,
-    pic: './src/images/poboi.jpg'
+    pic: './Jimmys-Sandwiches/src/images/poboi.jpg'
 },
 {
     id: 6,
     name: "Meatball",
     description: "Provolone| Marinara| Roasted Rep Peppers| 6 Oz Meatballs| Toasted Baguette",
     price: 13,
-    pic: './src/images/meatball.jpg'
+    pic: './Jimmys-Sandwiches/src/images/meatball.jpg'
 }]
 
   return (
