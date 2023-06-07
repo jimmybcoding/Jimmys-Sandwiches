@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    min-width: 400px;
+    margin: 0;
+}
+
+h1,h2,h3 {
+    font-family: 'Righteous', 'sans serif';
+}
+
+h1,h2 {
+    text-align: center;
+    color: white;
+    text-decoration: underline dotted;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+.app-wrapper {
+    background-image: url('./images/menu-background.jpg');
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+    width: 60vw;
+    min-width: 400px;
+    margin: auto;
+    background-color: rgb(236, 215, 18);
+    list-style: none;
+    border: 5px solid rgb(30, 48, 80);
+    border-radius: 10px;
+    color: rgb(30, 48, 80);
+}
+
+.make-meal {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: underline dotted;
+}
+
+.menu-price {
+    font-size: 1.25rem;
+}
+
+.navbar {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a, button {
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: rgb(236, 215, 18);
+    color: rgb(30, 48, 80);
+    border: 5px solid rgb(30, 48, 80);
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: 'Righteous', 'sans serif';
+}
+
+a:hover, button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.facebook {
+    background-color: blue;
+    color: white;
+}
+
+.instagram {
+    background-color: rgb(243, 59, 114);
+    color: white;
+}
+
+.carousel-container {
+    height: 100%;
+    width: 90vw;
+    position: relative;
+    margin: auto;
+    background-color: rgb(31, 29, 29);
+    border-radius: 10px;
+}
+
+.carousel-container:hover {
+    background-color: black;
+}
+
+.carousel-name {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Righteous', 'sans serif';
+}
+
+.carousel-forward-btn {
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 1rem;
+    opacity: 0.5;
+    background-color: white;
+}
+
+.carousel-back-btn {
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 1rem;
+    opacity: 0.5;
+    background-color: white;
+}
+
+.carousel-back-btn:hover,
+.carousel-forward-btn:hover {
+    opacity: 1;
+}
+
+.about-container {
+    height: 100vh;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Righteous', 'sans serif';
+    color: white;
+}
+
+.contact-hours {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.order-btn-div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.hamilton-image {
+    width: 400px;
+    border-radius: 10px;
+}
