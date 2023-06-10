@@ -42,5 +42,6 @@ function Gallery({menuItems}) {
     </div>
   )
   }
-export default Gallery
+
+  export default Gallery
 

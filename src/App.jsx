@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLeaf, faShrimp } from '@fortawesome/free-solid-svg-icons'
 
 const shrimp = <FontAwesomeIcon icon={faShrimp} />
+
 const veggie = <FontAwesomeIcon icon={faLeaf} /> 
 
 function App() {
