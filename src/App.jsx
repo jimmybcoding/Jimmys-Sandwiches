@@ -18,14 +18,14 @@ function App() {
     name: "Turkey",
     description: "Iceberg|  Tomato|  Provolone|  Mayo|  Shaved Turkey|  Artisan Bun",
     price: 14,
-    pic: 'https://github.com/jimmybcoding/Jimmys-Sandwiches/blob/main/src/images/turkey.JPG'
+    pic: './images/turkey.jpg'
 },
 {
     id: 2,
     name: "Smoked Meat",
     description: "Crispy Shoestring Potatoes| Dijonnaise| 24-Hour Smoked Brisket| Rye",
     price: 16,
-    pic: './Jimmys-Sandwiches/src/images/smoked-meat.JPG'
+    pic: './images/smoked-meat.jpg'
 },
 {
     id: 3,
@@ -48,14 +48,14 @@ function App() {
     description: "Coleslaw| Tartar| Garlic Shrimp| Soft baguette",
     price: 15,
     icon: shrimp,
-    pic: './Jimmys-Sandwiches/src/images/poboi.jpg'
+    pic: './images/poboi.jpg'
 },
 {
     id: 6,
     name: "Meatball",
     description: "Provolone| Marinara| Roasted Rep Peppers| 6 Oz Meatballs| Toasted Baguette",
     price: 13,
-    pic: './Jimmys-Sandwiches/src/images/meatball.jpg'
+    pic: './images/meatball.jpg'
 }]
 
   return (
