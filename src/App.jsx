@@ -18,14 +18,14 @@ function App() {
     name: "Turkey",
     description: "Iceberg|  Tomato|  Provolone|  Mayo|  Shaved Turkey|  Artisan Bun",
     price: 14,
-    pic: './src/images/turkey.jpg'
+    pic: './src/images/turkey.JPG'
 },
 {
     id: 2,
     name: "Smoked Meat",
     description: "Crispy Shoestring Potatoes| Dijonnaise| 24-Hour Smoked Brisket| Rye",
     price: 16,
-    pic: './Jimmys-Sandwiches/src/images/smoked-meat.jpg'
+    pic: './Jimmys-Sandwiches/src/images/smoked-meat.JPG'
 },
 {
     id: 3,
