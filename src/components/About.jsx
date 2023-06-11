@@ -1,4 +1,4 @@
-import hamilton from './images/hamilton.jpg'
+import hamilton from './src/images/hamilton.jpg';
 
 const hamiltonPic = document.getElementById('hamilton');
 hamiltonPic.src = hamilton;
