@@ -33,14 +33,14 @@ function App() {
     description: "Arugula| Roasted Beets| Grilled Onions| Roasted Garlic Aioli| Artisan Bun",
     price: 11,
     icon: veggie,
-    pic: './public/images/veggie.jpg'
+    pic: './images/veggie.jpg'
 },
 {
     id: 4,
     name: "Reuben",
     description: "Swiss Cheese| Sauerkraut| Housemade Russian Dressing| Corned Beef| Rye",
     price: 15,
-    pic: './images/src/images/reuben.jpg'
+    pic: './images/reuben.jpg'
 },
 {
     id: 5,
