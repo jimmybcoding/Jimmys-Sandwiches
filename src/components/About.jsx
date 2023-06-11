@@ -1,13 +1,9 @@
-import hamilton from 'src/images/hamilton.jpg';
-
-const hamiltonPic = document.getElementById('hamilton');
-hamiltonPic.src = hamilton;
 
 function About() {
   return (
     <div className="about-container">
       <p>Jimmy&apos;s Sandwhiches has been proud to serve Hamilton since 1990</p>
-      <img src="./images/hamilton.jpg" className="hamilton-image" id="hamilton"/>
+      <img src="./src/images/hamilton.jpg" alt="City of Hamilton" className="hamilton-image"/>
       <p>Online ordering now available:</p>
       <div className="order-btn-div">
         <a href="https://www.tbdine.com" target="blank">Order Takeout</a>
