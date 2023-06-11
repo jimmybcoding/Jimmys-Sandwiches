@@ -33,7 +33,7 @@ function App() {
     description: "Arugula| Roasted Beets| Grilled Onions| Roasted Garlic Aioli| Artisan Bun",
     price: 11,
     icon: veggie,
-    pic: './Jimmys-Sandwiches/src/images/veggie.jpg'
+    pic: 'Jimmys-Sandwiches/src/images/veggie.jpg'
 },
 {
     id: 4,
