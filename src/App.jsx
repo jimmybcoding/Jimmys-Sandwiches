@@ -18,7 +18,7 @@ function App() {
     name: "Turkey",
     description: "Iceberg|  Tomato|  Provolone|  Mayo|  Shaved Turkey|  Artisan Bun",
     price: 14,
-    pic: './Jimmys-Sandwiches/src/images/turkey.jpg'
+    pic: './src/images/turkey.jpg'
 },
 {
     id: 2,
